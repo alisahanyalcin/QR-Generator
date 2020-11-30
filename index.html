@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Generator</title>
+</head>
+<body>
+<div class="source">
+    <div class="github">
+        <a class="github-btn btn" href="https://github.com/alisahanyalcin" target="_blank">
+            <img height="20" src="github.svg" alt="GitHub" class="github">
+            <span class="github">Source Code</span>
+        </a>
+    </div>
+</div>
+
+<div class="generator">
+    <h3> QR Generator </h3>
+    <div id="result"></div>
+    <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Enter text to share here"></textarea>
+    <p>
+        <button id="generate">Generate</button>
+    </p>
+</div>
+<div id="snackbar">Text field must not be empty..</div>
+
+<script type="text/javascript"  src="app.js" charset="utf-8"></script>
+</body>
+</html>
